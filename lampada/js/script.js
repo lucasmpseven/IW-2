@@ -3,7 +3,6 @@ const desligar = document.getElementById('desligar')
 const lampada = document.getElementById('lamp')
 const ambos = document.getElementById ('ambos')
 const estado = document.getElementById ('estado')
-const reset = document.getElementById ('reset')
 
 function estaquebrada(){
     return lampada.src.indexOf('quebrada') > -1
@@ -50,10 +49,6 @@ function mult (){
 
 }
 
-function resetar (){
-    lamp.src = "img/desligada.jpg"
-}
-
 ligar.addEventListener('click', lampLigada)
 desligar.addEventListener('click', lampDesligada)
 
@@ -62,4 +57,3 @@ lampada.addEventListener('mouseleave', lampDesligada)
 lampada.addEventListener('dblclick',lampQuebrada)
 
 ambos.addEventListener('click', mult)
-reset.addEventListener('click',resetar)
