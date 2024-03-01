@@ -1,15 +1,37 @@
 body{
     text-align: center;
+    background-color: black;
 }
 
 h1{
-    font-size: 25px
+    padding-bottom: 5px;
 }
 
-.calc{
-    background-color: blue;
+.numeros{
+    flex-direction: column;
+    display: flex;
+    background-color: white; 
+    padding: 1.25%;
+    margin: 2%; 
+    border-radius: 20PX;
+    margin: 0 20%;
 }
 
-.calcbotons{
-    background-color: blue;
+.botoes{
+    padding-top: 15%;
+    flex-direction: column;
+    display: flex;
+    background-color: white; 
+    padding: 1.25%;
+    margin: 2%; 
+    border-radius: 20PX;
+    margin: 0 25%;
+}
+
+#resultado{
+    padding-top: 20px;
+}
+
+p{
+    font-size: 20px;
 }

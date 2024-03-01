@@ -8,33 +8,29 @@
 </head>
 <body>
 
-    <h1>CALCULADORA DO LULU</h1>
-    <div class="calc">
-    Digite seu nome:
-   <input id="nome" name="nome" value="" type="text">
-   <button id="botao" onclick="peganome()">Clique</button>
-   <p id="resultado">Aqui vai aparecer seu nome</p>
+      <div class="numeros">
 
-   Digite o primeiro número
-   <input id="num1" name="num1" type="text">
-   <p id="num1">Número 2</p>
+         <h1>Seja bem vindo a Calculadora do Lucas</h1>
 
-   Digite o segundo número
-   <input id="num1" name="num1" type="text">
-   <p id="num2">Número 2</p>
+         Digite o primeiro número:
+         <input id="n1" type="number">
+         
+         Digite o segundo número:
+         <input id="n2" type="number">
 
-      <h1>ESCOLHA UMA OPERAÇÃO</h1>
+      </div>
 
-   <button id="soma" onclick="pegasome()">Somar</button>
-   <button id="subt" onclick="pegasubt()">Subtrair</button>
-   <button id="mult" onclick="pegamult()">Multiplicar</button>
-   <button id="divi" onclick="pegadivi()">Dividir</button>
-   <button id="limpar" onclick="pegalimpar()">Limpar</button>
+      <div class="botoes">
 
-</div>
+      <h1>Escolha uma operação</h1>
+      <button id="soma" onclick="soma()">Somar</button>
+      <button id="subt" onclick="sub()">Subtrair</button>
+      <button id="mult" onclick="mult()">Multiplicar</button>
+      <button id="divi" onclick="div()">Dividir</button>
+      <button id="limpar" onclick="limpar()">Limpar</button>
+      <p>O resultado da sua operação é: <span id="resultado"></span></p>
 
-
-
+      </div>
 
    <script src="js/script.js"></script>
 </body>
