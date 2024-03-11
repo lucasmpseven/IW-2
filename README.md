@@ -1,8 +1,8 @@
 Aula 2 Lâmpada
- https://lucasmpseven.github.io/IW-2/lampada
+# http://lucasmpseven.github.io/IW-2/lampada
 
 Aula 3 Calculadora
- https://lucasmpseven.github.io/IW-2/calculadora
+# http://lucasmpseven.github.io/IW-2/calculadora
 
 Aula 4 Calculadora IMC
- https://lucasmpseven.github.io/IW-2/calculadoraimc
+# http://lucasmpseven.github.io/IW-2/calculadoraimc
