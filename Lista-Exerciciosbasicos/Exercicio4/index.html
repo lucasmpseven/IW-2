@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 4</title>
+    <title>Exercicio 4</title>
 </head>
 <body>
+
+    <h1>INTERAGINDO COM O USUÁRIO</h1>
+    <p id="cor">Clique em um dos botões acima para ver a cor correspondente.</p>
+    <button onclick="alterarTexto('b1', 'red')">Vermelho</button>
+    <button onclick="alterarTexto('b2', 'blue')">Azul</button>
+    <button onclick="alterarTexto('b3', 'green')">Verde</button>
+
     <script>
-        
+        function alterarTexto(botao, cor) {
+            var corParagrafo = document.getElementById('cor');
+            corParagrafo.textContent = "A cor do botão é essa do texto!";
+            corParagrafo.style.color = cor;
+        }
     </script>
+
 </body>
 </html>
