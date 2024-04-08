@@ -6,3 +6,9 @@ Aula 3 Calculadora
 
 Aula 4 Calculadora IMC
 # http://lucasmpseven.github.io/IW-2/calculadoraimc
+
+Exercicios Basicos
+
+Manipulando CSS
+
+# http://lucasmpseven.githubio/IW-2/IW-ManipulandoCSS
