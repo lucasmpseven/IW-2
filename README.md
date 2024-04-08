@@ -11,4 +11,4 @@ Exercicios Basicos
 
 Manipulando CSS
 
-# http://lucasmpseven.githubio/IW-2/IW-ManipulandoCSS
+# http://lucasmpseven.github.io/IW-2/IW-ManipulandoCSS
