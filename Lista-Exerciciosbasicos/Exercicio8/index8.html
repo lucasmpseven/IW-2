@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+<body>
+
+    <h1>EXERCÍCIO 8</h1>
+    <h1>RESOLVENDO BHASKARA</h1>
+    <p>Considerando uma equação no formato ax² + bx + c = 0, aperte o botão abaixo para calcular o valor de Δ.</p>
+    <p>OBS: Δ= b² - 4 * a * c </p>
+    <button id="calc" onclick="calc()">CALCULAR</button>
+    <p>A equação é: <span id="a"></span>x² + <span id="b"></span>x + <span id="c"></span> = 0</p>
+    <p>O cálculo realizado será Δ= <span id="valorb"></span>² - 4 * <span id="valora"></span> * <span id="valorc"></span> </p>
+    <p>O valor calculado é: Δ= <span id="result"></span></p>
+
+    <script>
+    function calc(){
+        var A = parseFloat(prompt('Informe o valor de A: '))
+        var B = parseFloat(prompt('Informe o valor de B: '))
+        var C = parseFloat(prompt('Informe o valor de C: '))
+        RESULT = (B * B) - 4 * (A) * (C)
+        result.innerHTML = RESULT
+        a.innerHTML = A
+        b.innerHTML = B
+        c.innerHTML = C
+        valora.innerHTML = A
+        valorb.innerHTML = B
+        valorc.innerHTML = C
+    }
+    </script>
+    
+</body>
+</html>

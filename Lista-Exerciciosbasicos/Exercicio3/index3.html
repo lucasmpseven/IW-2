@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+
+    <h1>INTERAGINDO COM O USUÁRIO</h1>
+    <button onclick="AlteraTexto('botao1')">Botão 1</button>
+    <button onclick="AlteraTexto('botao2')">Botão 2</button>
+    <button onclick="AlteraTexto('botao3')">Botão 3</button>
+    <p id="texto">Clique em algum botão.</p>
+
+    <script>
+        function AlteraTexto(botao) {
+            var texto = document.getElementById('texto');
+            switch (botao) {
+                case 'botao1':
+                    texto.textContent = "Você clicou no botão 01.";
+                    break;
+                case 'botao2':
+                    texto.textContent = "Você clicou no botão 02.";
+                    break;
+                case 'botao3':
+                    texto.textContent = "Você clicou no botão 03.";
+                    break;
+                default:
+                    texto.textContent = "Clique em um dos botões acima.";
+                    break;
+            }
+        }
+    </script>
+
+</body>
+</html>

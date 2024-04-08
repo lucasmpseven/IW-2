@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<body>
+    <h1>EXERCÍCIO 7</h1>
+    <h1>REAJUSTE SALARIAL</h1>
+    <p>Clique no botão para iniciar!</p>
+    <button id="reaj" onclick="reaj()">REAJUSTAR SALÁRIO</button>
+    
+    <p>O(a) <span id="nome">nome</span> recebeu um aumento salarial!</p>
+    <p>O salário atual era de <span id="salario">0</span> reais.</p>
+    <p>Com aumento de <span id="porc">0</span>% , o salário vai aumentar <span id="aumento">0</span> reais.</p>
+    <p>E a partir daí, <span id="funcionario">nome</span> vai passar a receber um valor de <span id="final">0</span> reais.</p>
+
+    <h1><button><a href="exer8.html">PRÓXIMO (ÚLTIMO) EXERCÍCIO</a></button></h1>
+
+    <script >
+        function reaj(){
+            var NOMEFUNC = prompt('Informe o nome do funcionário: ')
+            var SALARIO = parseFloat(prompt('Informe o valor do salário de ' + NOMEFUNC + ': '))
+            var PORC = parseFloat(prompt('Qual a porcentagem que o salário de ' + NOMEFUNC + ' será ajustado? '))
+            nome.innerHTML = NOMEFUNC
+            funcionario.innerHTML = NOMEFUNC
+            salario.innerHTML = SALARIO 
+            porc.innerHTML = PORC
+            soma = (PORC*SALARIO)/100
+            aumento.innerHTML = soma
+            final.innerHTML= SALARIO + soma
+
+        }
+    </script>
+</body>
+</html>

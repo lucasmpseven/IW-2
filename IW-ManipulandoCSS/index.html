@@ -2,32 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulando CSS com JS</title>
+    <title>Manipulando CSS</title>
     <link rel="stylesheet" href="css/estilo.css" />
 </head>
 <body>
     <main class='tela-principal'>
         <h1>Manipulando CSS com JS</h1>
         <span id='botoes'>
-            <button class='modos' id='btlight'>Light</button>
-            <button class='modos' id='btdark'>Dark</button>
-            <button class='modos' id='btblue'>Blue</button>
-            <button class='modos' id='btyellow'>Yellow</button>
-            <button class="modos" id="btpink">Pink</button>
+            <button id='btfogo'>Fogo</button>
+            <button id='btagua'>Água</button>
+            <button id='btplanta'>Planta</button>
+            <button id='bteletrico'>Elétrico</button>
+            <button id="btpsiquico">Psiquico</button>
         </span>
         <section id='conteudos'>
             <article class='box'>
-                <h2>Imagem</h2>
+                <h2 id="nomepok"></h2>
                 <figure>
                     <img id='foto' src="" alt="Foto" />
                 </figure>
-                <p>Texto de teste 1 em parágrafo.</p>
             </article>
             <article class='box'>
-                <h2>Título</h2>
-                <p>Texto de teste 2 em parágrafo.</p>
+                <h2>Caracterísiticas do Pokemon</h2>
+                <p id="caracpok">Texto de teste 2 em parágrafo.</p>
             </article>
         </section>
     </main>

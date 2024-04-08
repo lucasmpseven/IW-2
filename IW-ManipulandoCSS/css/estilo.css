@@ -30,6 +30,20 @@ h1, section, article {
     margin-bottom: 1rem;
 }
 
+h2{
+    margin-bottom: 1rem;
+    color: black;
+}
+
+p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+article{
+    margin-bottom: 2rem;
+}
+
 #botoes {
     display: inline-block;
     margin-bottom: 1rem;
@@ -37,39 +51,40 @@ h1, section, article {
 
 /* botoes */
 button {
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     padding: 0.625rem;
     cursor: pointer;
+    background-color: black;
 }
 
-/* botao light */
-#btlight {
-    background: #ededed;
+/* botao fogo */
+#btfogo {
+    background: #dd0000;
     color: #121212;
 }
 
-/* botao dark */
-#btdark {
-    background-color: #263238;
+/* botao agua */
+#btagua {
+    background-color: #0034df;
     color: #fff;
 }
 
-/* botao blue */
-#btblue {
-    background: #1a237e;
+/* botao planta */
+#btplanta {
+    background: #00d60b;
     color: #fff;
 }
 
-/* botao yellow */
-#btyellow {
-    background: #ffc107;
+/* botao eletrico */
+#bteletrico {
+    background: #d8d400;
     color: #fff;
 }
 
-/* botao pink */
-#btpink {
-    background: pink;
+/* botao psiquico */
+#btpsiquico {
+    background: rgb(202, 0, 51);
     color: #fff;
 }
 
@@ -80,28 +95,28 @@ button {
 }
 
 /* Estilos para serem usados via JS */
-.light {
-    background: #fff;
-    color: #191919;
-}
-
-.dark {
-    background: #222;
+.fogo{
+    background: #b40000;
     color: #fff;
 }
 
-.blue {
-    background: #1a237e;
+.agua {
+    background: #062ba7;
     color: #fff;
 }
 
-.yellow {
-    background: #ffc107;
+.planta {
+    background: #00b109;
     color: #fff;
 }
 
-.pink {
-    background-color: pink;
+.eletrico {
+    background: #b9b600;
+    color: #fff;
+}
+
+.psiquico {
+    background: #c52c73;
     color: #fff;
 }
 
@@ -112,4 +127,6 @@ button {
     padding: 0.625rem;
 }
 
-
+.tela-principal{
+    text-align: center;
+}

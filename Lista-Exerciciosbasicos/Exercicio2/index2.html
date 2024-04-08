@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <h1>Interagindo com o usuário</h1>
+    <button onclick="ExibirAlerta()">Clique para começar</button>
+    <p><span id="mensagem"></span></p>
+
+    <script>
+        function ExibirAlerta() {
+            var nome = prompt('Digite seu nome: ');
+            var span = document.getElementById('mensagem');
+            span.innerHTML = 'Olá, seu nome é: ' + nome;
+        }
+    </script>
+
+</body>
+</html>
