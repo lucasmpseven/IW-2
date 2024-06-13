@@ -1,9 +1,9 @@
-//SOLICITAR UM MÓDULO INTERNO DO NODE CHAMADO http
+// SELECIONAR O MÓDULO http DO NODE
 var http = require('http')
 
-//Abrindo um servidor http
+//ABRIR UM SERVIDOR HTTP
 http.createServer(function(req,res){
-    res.end("Oi ETEC")
+    res.end('<b>OI 2C</b> BEM VINDOS AO SERVIDOR COM NODE JS')
 }).listen(8081)
 
-console.log('Servidor rodando...')
+console.log('Servidor rodando....')

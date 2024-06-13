@@ -1,9 +1,10 @@
-var somarfunc = require("./Modulos/somar")
-var subtrairfunc = require("./Modulos/subtrair")
-var multiplicarfunc = require("./Modulos/multiplicar")
-var dividirfunc = require("./Modulos/dividir")
+var SomarFunc = require('./modulos/somar')
+var SubtrairFunc = require('./modulos/subtrair')
+var MultiplicarFunc = require('./modulos/multiplicar')
+var DividirFunc = require('./modulos/dividir')
 
-console.log(somarfunc(3,5))
-console.log(subtrairfunc(3,5))
-console.log(multiplicarfunc(3,5))
-console.log(dividirfunc(3,5))
+
+console.log(SomarFunc(12,5))
+console.log(SubtrairFunc(12,5))
+console.log(MultiplicarFunc(12,5))
+console.log(DividirFunc(12,5))
